@@ -20,7 +20,7 @@ To verify system's specifications, we can run the following commands in terminal
 - **Check RAM size:**
 ```bash
     free -h
-    ```
+```
 
 - **Check available storage capacity:**    
 ```bash
@@ -37,7 +37,7 @@ To verify system's specifications, we can run the following commands in terminal
     nproc
 ```
 
-![[system_check.jpeg]]
+![system check](images/system_check.jpeg)
 
 ---
 ## 2. Installation of Yosys (Synthesis Tool)
@@ -67,7 +67,7 @@ To verify system's specifications, we can run the following commands in terminal
     
     # Install Yosys system-wide
     sudo make install
-    ```
+```
 
 **Verify Installation:** Check if Yosys was installed correctly or not:
 ```bash
@@ -75,7 +75,7 @@ To verify system's specifications, we can run the following commands in terminal
     yosys           # Launches the Yosys tool on command line
 ```
 
-![[yosys.jpeg]]
+![yosys verification](images/yosys.jpeg)
 
 ___
 ## 3. Installation of Icarus Verilog (Simulator)
@@ -92,7 +92,7 @@ ___
     iverilog -v
 ```
 
-![[iverilog.jpeg]]
+![iverilog verification](images/iverilog.jpeg)
 
 ---
 ## 4. Installation of GTKWave (Waveform Viewer)
@@ -109,7 +109,7 @@ ___
     gtkwave --version
 ```
 
-![[gtkwave.jpeg]]
+![gtkwave verification](images/gtkwave.jpeg)
 
 
 We now have a basic open-source EDA toolchain set up for digital design projects! 🎉
