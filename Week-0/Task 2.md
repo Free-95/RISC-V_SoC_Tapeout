@@ -42,7 +42,7 @@ To verify system's specifications, we can run the following commands in terminal
 ---
 ## 2. Installation of Yosys (Synthesis Tool)
 
-**Purpose:** **Yosys** is an open-source framework for Verilog RTL synthesis. It converts the high-level hardware description (Verilog code) into a gate-level netlist, which is a representation of the logic using standard cells.
+**Purpose:** *Yosys* is an open-source framework for Verilog RTL synthesis. It converts the high-level hardware description (Verilog code) into a gate-level netlist, which is a representation of the logic using standard cells.
 
 **Installation commands:**
 ```bash
@@ -80,7 +80,7 @@ To verify system's specifications, we can run the following commands in terminal
 ___
 ## 3. Installation of Icarus Verilog (Simulator)
 
-**Purpose:** **Icarus Verilog (iverilog)** is an open-source Verilog compiler and simulator. It compiles your Verilog code into an executable format and then simulates the behavior of your digital circuit to verify its functionality.
+**Purpose:** *Icarus Verilog (iverilog)* is an open-source Verilog compiler and simulator. It compiles your Verilog code into an executable format and then simulates the behavior of your digital circuit to verify its functionality.
 
 **Installation command:** 
 ```bash
@@ -97,7 +97,7 @@ ___
 ---
 ## 4. Installation of GTKWave (Waveform Viewer)
 
-**Purpose:** **GTKWave** is a graphical waveform viewer used to analyze the results of a Verilog simulation. After running a simulation with `iverilog`, it generates a waveform file (typically with a `.vcd` extension), which you can open in GTKWave to visually inspect the signals and debug your design.
+**Purpose:** *GTKWave* is a graphical waveform viewer used to analyze the results of a Verilog simulation. After running a simulation with `iverilog`, it generates a waveform file (typically with a `.vcd` extension), which you can open in GTKWave to visually inspect the signals and debug your design.
 
 **Installation command:** 
 ```bash
