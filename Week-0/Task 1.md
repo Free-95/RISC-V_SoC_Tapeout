@@ -4,6 +4,7 @@ This document outlines the comprehensive workflow for designing a digital System
 
 The success of the entire process is validated by ensuring the functional equivalence of the outputs at each key stage, represented as:
 $$O0=O1=O2=O3=O4$$
+
 This confirms that the final silicon chip accurately reflects the initial design specifications.
 
 ---
@@ -76,8 +77,3 @@ After the GDSII is sent to the foundry, the chip is fabricated, packaged, and re
     - Home Appliances 
     
 - **Final Verification Goal:** The ultimate goal is to confirm that the final fabricated chip works exactly as intended in the initial specifications. This is achieved when **`O3 == O4`**, which transitively proves the entire chain: **`O0 = O1 = O2 = O3 = O4`**.
-
-
-![[Screenshot 2025-09-18 234128.png]]
-
-![[Screenshot 2025-09-18 234110.png]]
