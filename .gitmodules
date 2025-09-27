@@ -1,0 +1,3 @@
+[submodule "Week-1/sky130RTLDesignAndSynthesisWorkshop"]
+	path = Week-1/sky130RTLDesignAndSynthesisWorkshop
+	url = https://github.com/Free-95/RISC-V_SoC_Tapeout.git
